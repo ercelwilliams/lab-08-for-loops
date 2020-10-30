@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+(function executeThis() {
+
+    function FizzBuzz(numCount) {
+        if (numCount % 15 == 0) {
+            console.log("FizzBuzz ");
+        } else if (numCount % 3 == 0) {
+            console.log("Fizz ");
+        } else if (numCount % 5 == 0) {
+            console.log("Buzz ");
+        } else {
+            console.log(numCount + ' ');
+        }
+    }
+
+    for (var numCount = 1; numCount < 100; numCount++) {
+        FizzBuzz(numCount);
+    }
+}());
+	</script>
+
+</body>
+</html>
